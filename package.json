@@ -1,0 +1,26 @@
+{
+  "name": "parallel-run",
+  "main": "index.js",
+  "version": "1.0.0",
+  "description": "Runs npm scripts in parallel",
+  "bin": {
+    "parallel-run": "index.js"
+  },
+  "author": "Tim Branyen <tim@tabdeveloper.com>",
+  "license": "MIT",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "express": "4.16.2",
+    "find-package-json": "^1.0.0",
+    "get-port": "3.2.0",
+    "minimist": "^1.2.0",
+    "react-blessed-you": "^0.8.0",
+    "spawn-command": "^0.0.2-1",
+    "wait-for-port": "^0.0.2"
+  },
+  "devDependencies": {
+    "enzyme": ">=2.7.1",
+    "mocha": ">=3.2.0",
+    "sinon": ">=1.17.7"
+  }
+}

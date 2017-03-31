@@ -1,0 +1,16 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "Parallel run example",
+  "main": "index.js",
+  "scripts": {
+    "echo-one": "echo 'From Window #1'",
+    "echo-two": "echo 'From Window #2'",
+    "echo-three": "echo 'From Window #3'",
+    "echo-four": "sleep 3 ; echo 'From Window #4'", 
+    "start": "../index.js echo-one echo-two echo-three echo-four",
+    "test": "../index.js echo-one echo-two"
+  },
+  "author": "Tim Branyen <tim@tabdeveloper.com>",
+  "license": "MIT"
+}
